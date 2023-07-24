@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato|Raleway|Rouge+Script");
+@import url("https://fonts.googleapis.com/css?family=Lato|Montserrat|Rouge+Script");
 .has-vertically-aligned-content {
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@
 }
 
 html {
-  font-family: 'Raleway', Tahoma, sans-serif;
+  font-family: 'Montserrat', Tahoma, sans-serif;
   width: 100%;
   min-height: 100%;
 }
@@ -22,29 +22,26 @@ html {
 .navbar-item {
   line-height: 38px;
   font-weight: 600;
-  text-transform: ;
   letter-spacing: 1px;
   font-size: 1rem;
-  box-shadow:  ;
 }
 
 .navbar-item.is-active{
-  border-bottom: 2px solid #996E6D;
+  border-bottom: 2px solid #65876e;
 }
 
 .a.navbar-item{
-  font-color: #996E6D;
+  font-color: #65876e;
 }
 
 
 .hero {
-  background-image: url(https://picsum.photos/id/25/1920/1080);
-  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("https://picsum.photos/id/381/1920/1080") no-repeat;
+  background: linear-gradient(rgba(90, 67, 67, 0.65), rgba(153, 110, 109, 0.35)), rgba(0, 0, 0, 0.25) url("../image/background.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
   box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -67,7 +64,7 @@ html {
 .hero .tempatwaktu {
   padding-top: 35px;
   font-size: 1.3rem;
-  
+
 }
 
 .hero .hero-foot {
@@ -102,17 +99,17 @@ html {
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li.is-active a {
-  border-bottom: 2px solid #996E6D;
+  border-bottom: 2px solid #65876e;
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a {
-  color: #996E6D;
+  color: #65876e;
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a:hover {
-  color: #996E6D;
+  color: #65876e;
   transition: all .2s ease-in-out;
-  border-bottom: 2px solid #c28285;
+  border-bottom: 2px solid #2e2a2a;
 }
 
 
@@ -126,17 +123,17 @@ html {
 
 .main-content {
   padding-top: 2rem;
-  color: #000; 
-  font-family: 'Raleway', sans-serif;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .main-content .section-dark {
-  background-color: #F4E2E2;
+  background-color: #dfe3bc;
   padding: 80px 40px;
 }
 
 .main-content .section-darker {
-  background-color: #EDD2D1;
+  background-color: #d5dd9a;
   padding: 80px 40px;
 }
 
@@ -157,9 +154,9 @@ html {
 }
 
 .main-content .section-dark.resume button {
-  border: 2px solid #996E6D;
+  border: 2px solid #65876e;
   background: white;
-  color: #996E6D;
+  color: #65876e;
   height: 50px;
   width: 250px;
   font-size: 1rem;
@@ -167,7 +164,7 @@ html {
 }
 
 .main-content .section-dark.resume .fa-download {
-  color: #996E6D;
+  color: #65876e;
 }
 
 .main-content .section-dark.my-work {
@@ -176,7 +173,7 @@ html {
 
 .main-content .section-cashbac {
   background-color: rgb(238, 250, 253);
-  padding: 80px 40px; 
+  padding: 80px 40px;
 }
 
 @media (max-width: 599px) {
@@ -262,7 +259,7 @@ html {
   height: 50px;
   font-size: 1.1rem;
   text-transform: uppercase;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 599px) {
@@ -273,7 +270,7 @@ html {
 
 .main-content .section-color.pertanyaan {
   padding: 100px;
-  background-color: #996E6D;
+  background-color: #65876e;
   color: white;
 }
 
@@ -288,18 +285,18 @@ html {
 }
 
 .main-content .section-title {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 900;
-  color: #996E6D;
-  text-transform: uppercase;
-  font-size: 1.5rem;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Rouge Script', sans-serif;
+  font-weight: 600;
+  color: #65876e;
+  font-size: 3.5rem;
   letter-spacing: 0px;
   padding-bottom: 60px;
 }
 
 .nama-lengkap {
   font-family: 'Rouge Script', sans-serif;
-  color: #996E6D;
+  color: #65876e;
   font-size: 3.5rem;
   letter-spacing: 0px;
   padding-bottom: 6px;
@@ -309,7 +306,7 @@ html {
 .ampersand {
 font-size: 5rem;
 font-family: 'Rouge Script', sans-serif;
-color: #996E6D;
+color: #65876e;
 line-height: 5rem;
 display: inline-block;
 vertical-align: middle;
@@ -319,23 +316,32 @@ vertical-align: middle;
   font-size: 18px;
 }
 
-.waktu {
+.Aikataulu {
   font-size: 1.4rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .tanggal-angka {
-  font-size: 5rem;
-  font-family: 'Raleway', sans-serif;
+  font-size: 10rem;
+  font-family: 'Rouge Script', sans-serif;
   font-weight: 900;
   line-height: 1;
 }
 
 .tempat {
   font-size: 1.4rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: ;
   margin-bottom: 50px;
+}
+
+#ville-kuvissa {
+  padding: 80px 0px;
+}
+
+.cellar {
+  text-align: center;
+  padding: 40px;
 }
 
 
@@ -350,8 +356,8 @@ vertical-align: middle;
   line-height: 25px;
   text-align: center;
   vertical-align: middle;
-  background: #c28285;
-  color: whitesmoke;    
+  background: #2e2a2a;
+  color: whitesmoke;
 }
 
 .footer p {
@@ -406,7 +412,7 @@ vertical-align: middle;
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #996E6D;
+  background-color: #65876e;
   color: white;
   cursor: pointer;
   border-radius: 50%;
@@ -428,8 +434,8 @@ vertical-align: middle;
 }
 
 ::-webkit-scrollbar-thumb {
-  box-shadow: inset 0 0 6px #996E6D;
-  -webkit-box-shadow: inset 0 0 6px #996E6D;
+  box-shadow: inset 0 0 6px #65876e;
+  -webkit-box-shadow: inset 0 0 6px #65876e;
   background-color: #BC8887;
 }
 
@@ -463,20 +469,18 @@ body.preloader-site {
   font-size: 1.2rem;
   border-radius: 10px;
   border: 2px solid #59a543;
-  width:  210px;
-  height: 65px;
   align-items: center;
   margin: 1rem;
 }
 
 
 .btn-whatsapp {
+  width:  190px;
+  height: 55px;
   background-color: #6cc751;
-  width:  210px;
-  height: 65px;
   color: white;
   font-size: 1.2rem;
-  border-radius: 10px;  
+  border-radius: 10px;
   border-left: 1px solid #6cc751;
   border-right: 1px solid #6cc751;
   border-top: 1px solid #6cc751;
@@ -500,12 +504,12 @@ body.preloader-site {
 }
 
 .btn-cta {
-  background-color: #996E6D;
+  background-color: #65876e;
   width:  210px;
   height: 65px;
   color: white;
   font-size: 1.2rem;
-  border: 2px solid #996E6D;
+  border: 2px solid #65876e;
   border-radius: 10px;
   align-items: center;
   margin: 1rem;
@@ -557,64 +561,51 @@ body.preloader-site {
 .dusty-pink-lighter {color: #EDD2D1}
 .dusty-pink-lightest {color: #F4E2E2}
 .dusty-pink-darker {color: #BC8887}
-.dusty-pink-darkest {color: #996E6D}
+.dusty-pink-darkest {color: #65876e}
 
 .tile {
-  border-radius: 10px;
+  border-radius: 0.2rem;
 }
 
+.tile.is-parent {
+  padding: 0.25rem;
+}
+
+.foto {
+  background-size: cover;
+  background-position: top;
+  background-repeat:no-repeat;
+  min-height: 26rem;
+}
 
 .foto1 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-kang-emil.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat:no-repeat;
-  min-height: 24rem;
+  background-image: linear-gradient(rgb(54 27 108 / 50%), rgba(48, 47, 47, 0.9)),
+  url(../image/foto1.jpg);
 }
 
-
 .foto2 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-cashbac.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat:no-repeat;
-  min-height: 24rem;
+  background-image: linear-gradient(rgb(54 27 108 / 50%), rgba(48, 47, 47, 0.9)),
+  url(../image/foto2.jpg);
 }
 
 .foto3 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-selfie.jpg");
-  background-size: cover;
-  background-position: top;
-  background-repeat:no-repeat;
-  min-height: 24rem;
+  background-image: linear-gradient(rgb(54 27 108 / 50%), rgba(48, 47, 47, 0.9)),
+  url(../image/foto4.jpg);
 }
 
 .foto4 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-lamaran.jpg");
-  background-size: cover;
-  background-position: top;
-  background-repeat:no-repeat;
-  min-height: 24rem;
+  background-image: linear-gradient(rgb(54 27 108 / 50%), rgba(48, 47, 47, 0.9)),
+  url(../image/foto4b.jpg);
 }
+
 
 .foto5 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-red-car.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat:no-repeat;
-  min-height: 24rem;
+  background-image: linear-gradient(rgb(54 27 108 / 50%), rgba(48, 47, 47, 0.9)), url(../image/foto5.jpg);
 }
-
 
 .foto6 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-engagement-ami.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat:no-repeat;
-  min-height: 24rem;
+  background-image: linear-gradient(rgb(54 27 108 / 50%), rgba(48, 47, 47, 0.9)), url(../image/foto6.jpg);
 }
-
-
 
 .title-foto {
   font-size: 18pt;
@@ -626,24 +617,24 @@ body.preloader-site {
 
 
 .subtitle-foto {
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
-  font-size: 14pt;
-  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 13pt;
   margin-top: 15px;
   text-align: left;
   color: white;
+  opacity: 0.8;
 }
 
 .section-light {
-  background-image: url(../image/divider-flowers-leaves.png);
-  background-position: bottom -30px center;
+  /* background-image: url(../image/divider-flowers-leaves.png);
+  background-position: bottom 29px center; */
   background-repeat: no-repeat;
-  background-size: initial;
+  background-size: 21rem;
 }
 
 .instagram {
-  color: #996E6D;
+  color: #65876e;
   font-size: 1.25rem;
   font-weight: 900;
   margin-top: 0.5rem;
@@ -652,3 +643,16 @@ body.preloader-site {
   text-align: center;
   padding: 10px;
 }
+
+.btn-submit {
+  margin-top: 0.3rem;
+  width: 100%;
+  height: 45px;
+}
+
+@media (max-width: 599px) {
+  .btn-submit {
+    width: 100%;
+  }
+}
+
