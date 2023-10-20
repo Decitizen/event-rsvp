@@ -7,7 +7,7 @@
     <title>Tentang Cashbac</title>
     <!-- Bulma Version 0.8.x-->
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
-    <link rel="stylesheet" type="text/css" href="../css/menikah.css" />
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
     <script
       src="https://kit.fontawesome.com/2828f7885a.js"
       integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
@@ -34,26 +34,26 @@
             </h2>
 
             <div class="column is-12 regular-section has-text-centered">
-            
+
                 <a href="https://cashbac.onelink.me/1sXQ/homepage" target="_blank">
                 <img class="button-download" type="svg" src="../image/download-playstore.svg" />
-                
+
                 </a>
-            
-            
+
+
                 <a href="https://cashbac.onelink.me/1sXQ/homepage" target="_blank">
                 <img class="button-download" type="svg" src="../image/download-appstore.svg" />
-            
-                
+
+
                 </a >
             </div>
             </div>
             <div class="columns">
                 <div class="column is-6">
                   Referral Code Sherly
-                
+
                     <!-- 1. Define some markup -->
-                   
+
                     <div class="field has-addons">
                       <input class="voucher-code is-expanded" id="foo" type="text" value="Bandung">
                       <button class="btn-voucher-code is-expanded" data-clipboard-action="copy" data-clipboard-target="#foo">
@@ -61,11 +61,11 @@
                         Copy
                       </button>
                     </div>
-                  
+
                 </div>
                 <div class="column is-6">
                   Referral Code Daeng
-                  <div class="field has-addons">  
+                  <div class="field has-addons">
                     <input class="voucher-code is-expanded" id="foo1" type="text" value="dae10al">
                     <button class="btn-voucher-code is-expanded" data-clipboard-action="copy" data-clipboard-target="#foo1">
                       <i class="far fa-copy"></i>
@@ -74,19 +74,19 @@
                   </div>
                   <!-- 2. Include library -->
                   <script src="../js/clipboard.min.js"></script>
-    
+
                   <!-- 3. Instantiate clipboard -->
                   <script>
                   var clipboard = new ClipboardJS('.btn-voucher-code');
-    
+
                   clipboard.on('success', function(e) {
                       console.log(e);
                   });
-    
+
                   clipboard.on('error', function(e) {
                       console.log(e);
                   });
-                  </script> 
+                  </script>
                 </div>
               </div>
         </div>
